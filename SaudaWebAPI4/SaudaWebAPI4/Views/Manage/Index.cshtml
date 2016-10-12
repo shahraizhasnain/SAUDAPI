@@ -1,0 +1,185 @@
+﻿@model SaudaWebAPI4.Models.Category
+@{
+    ViewBag.Title = "ManageStore";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!--main content start-->
+<section id="main-content">
+    <section class="wrapper site-min-height">
+        <!-- page start-->
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="col-lg-12">
+                    <section class="panel">
+                        <header class="panel-heading">
+                            Create New Brand
+                        </header>
+                        <div class="panel-body">
+                            <form role="form">
+                                <div class="form-group">
+                                    <input type="email" class="form-control input-lg m-bot15" id="exampleInputEmail1" placeholder="Enter Brand Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control input-lg m-bot15" id="exampleInputPassword1" placeholder="Enter Brand Title">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control input-lg m-bot15" id="exampleInputPassword1" placeholder="Enter Brand Description">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputFile">Brand Image</label>
+                                    <input type="file" id="exampleInputFile">
+                                    <p class="help-block">Add category image here</p>
+                                </div>
+                                <button type="submit" class="btn btn-shadow btn-primary pull-right"><i class="fa fa-plus"></i> Add Brand</button>
+                            </form>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-lg-12">
+                    <section class="panel">
+                        <header class="panel-heading">
+                            Create New Category
+                        </header>
+                        <div class="panel-body">
+                            <form role="form">
+                                <div class="form-group">
+                                    <input type="email" class="form-control input-lg m-bot15" id="exampleInputEmail1" placeholder="Enter Category Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control input-lg m-bot15" id="exampleInputPassword1" placeholder="Enter Category Display Name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputFile">Category Image</label>
+                                    <input type="file" id="exampleInputFile">
+                                    <p class="help-block">Add category image here</p>
+                                </div>
+                                <button type="submit" class="btn btn-shadow btn-primary pull-right"><i class="fa fa-plus"></i> Add Category</button>
+                            </form>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-lg-12">
+                    <section class="panel">
+                        <header class="panel-heading">
+                            Create Sub Category
+                        </header>
+                        <div class="panel-body">
+                            <form role="form">
+                                <div class="form-group">
+                                    <select class="form-control input-lg m-bot15">
+                                        <option value="">Category Name</option>
+                                        <option value="volvo">Volvo</option>
+                                        <option value="saab">Saab</option>
+                                        <option value="mercedes">Mercedes</option>
+                                        <option value="audi">Audi</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control input-lg m-bot15" id="exampleInputEmail1" placeholder="Enter Sub Category Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control input-lg m-bot15" id="exampleInputPassword1" placeholder="Enter Sub Category Display Name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputFile">Sub Category Image</label>
+                                    <input type="file" id="exampleInputFile">
+                                    <p class="help-block">Example block-level help text here.</p>
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox"> Check me out
+                                    </label>
+                                </div>
+                                <button type="submit" class="btn btn-shadow btn-primary pull-right"><i class="fa fa-plus"></i> Add Sub Category</button>
+                            </form>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-lg-12">
+                    <section class="panel">
+                        <header class="panel-heading">
+                            Add Items
+                        </header>
+                        <div class="panel-body">
+                            <form role="form">
+                                <div class="form-group">
+                                    <input type="email" class="form-control input-lg m-bot15" id="exampleInputEmail1" placeholder="Enter Item Name">
+                                </div>
+                                <div class="form-group">
+                                    <select class="form-control input-lg m-bot15">
+                                        <option value="volvo">Volvo</option>
+                                        <option value="saab">Saab</option>
+                                        <option value="mercedes">Mercedes</option>
+                                        <option value="audi">Audi</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <select class="form-control input-lg m-bot15">
+                                        <option value="volvo">Volvo</option>
+                                        <option value="saab">Saab</option>
+                                        <option value="mercedes">Mercedes</option>
+                                        <option value="audi">Audi</option>
+                                    </select>
+                                </div><div class="form-group">
+                                    <select class="form-control input-lg m-bot15">
+                                        <option value="volvo">Volvo</option>
+                                        <option value="saab">Saab</option>
+                                        <option value="mercedes">Mercedes</option>
+                                        <option value="audi">Audi</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control input-lg m-bot15" id="exampleInputPassword1" placeholder="Enter description">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg m-bot15" id="exampleInputPassword1" placeholder="Enter price">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control input-lg m-bot15" id="exampleInputPassword1" placeholder="Enter percentage">
+                                </div>
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox"> Item Availability
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputFile">Item Image</label>
+                                    <input type="file" id="exampleInputFile">
+                                    <p class="help-block">Example block-level help text here.</p>
+                                </div>
+                                <button type="submit" class="btn btn-shadow btn-primary pull-right"><i class="fa fa-plus"></i> Add Items</button>
+                            </form>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="panel">
+                    <div class="panel-heading">
+                        Tree Style #4
+                    </div>
+                    <div class="panel-body">
+                        <div id="FlatTree4" class="tree tree-solid-line">
+                            <div class="tree-folder" style="display:none;">
+                                <div class="tree-folder-header">
+                                    <i class="fa fa-folder"></i>
+                                    <div class="tree-folder-name"></div>
+                                </div>
+                                <div class="tree-folder-content"></div>
+                                <div class="tree-loader" style="display:none"></div>
+                            </div>
+                            <div class="tree-item" style="display:none;">
+                                <i class="tree-dot"></i>
+                                <div class="tree-item-name"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- page end-->
+    </section>
+</section>
+<!--main content end-->

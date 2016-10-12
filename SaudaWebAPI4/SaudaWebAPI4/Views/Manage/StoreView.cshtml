@@ -1,0 +1,46 @@
+﻿@model SaudaWebAPI4.Models.Category
+    @{
+        var manage = Model;
+     }
+<!--main content start-->
+<section id="main-content">
+    <section class="wrapper site-min-height">
+        <!-- page start-->
+
+        <div class="row">
+            <div class="col-sm-12">
+                <section class="panel">
+                    <header class="panel-heading">
+                        Striped Table
+                    </header>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Category ID</th>
+                                <th>Category Name</th>
+                                <th>Display Name</th>
+                                @*<th>Username</th>*@
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                          
+                                    <tr>
+                                        
+                                        <td>@manage.CategoryID</td>
+                                        <td>@manage.CategoryName</td>
+                                        <td>@manage.CategoryDisplayName</td>
+                                        @*<td>mdo</td>*@
+                                    </tr>
+                                }
+
+                            }
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+        </div>
+        <!-- page end-->
+    </section>
+</section>
+<!--main content end-->

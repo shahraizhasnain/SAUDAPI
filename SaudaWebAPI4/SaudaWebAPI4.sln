@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaudaWebAPI4", "SaudaWebAPI4\SaudaWebAPI4.csproj", "{93404060-CBA5-44D0-A7A6-2C055B5DB771}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93404060-CBA5-44D0-A7A6-2C055B5DB771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93404060-CBA5-44D0-A7A6-2C055B5DB771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93404060-CBA5-44D0-A7A6-2C055B5DB771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93404060-CBA5-44D0-A7A6-2C055B5DB771}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://shahraiz.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SaudaWebAPI4\\SaudaWebAPI4.csproj
+		SccProjectName1 = SaudaWebAPI4
+		SccLocalPath1 = SaudaWebAPI4
+	EndGlobalSection
+EndGlobal
